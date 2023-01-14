@@ -1,6 +1,6 @@
 # Cebuano Natural Language Toolkit Beta version 1.1
 
-* This toolkit is still in its beta version and is still undergoing further testings 
+*This toolkit is still in its beta version and is still undergoing further testings*
 
 ## In this README :point_down:
 
