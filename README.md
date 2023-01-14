@@ -1,6 +1,6 @@
 # Cebuano Natural Language Toolkit Beta version 1.1
 
-* This toolkit is still in its beta version and is still undergoing further testings*
+* This toolkit is still in its beta version and is still undergoing further testings 
 
 ## In this README :point_down:
 
@@ -53,7 +53,7 @@
     ```
     *Then you are ready to install CNLTK latest version*
 
-2. Install necessary libraries.
+2. Install CNLTK library.
 
     *Google colab is very flexible in installing libraries with older versions*
 
