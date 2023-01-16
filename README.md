@@ -35,14 +35,14 @@
     *Google colab is very flexible in installing libraries with older versions*
 
     ```
-    !pip install tensorflow==2.2 
-    !pip install keras==2.3.1
+    !pip install tensorflow
+    !pip install keras
     !pip install plot-keras-history
-    !pip install git+https://www.github.com/keras-team/keras-contrib.git
     !pip install tensorflow_addons
     !pip install keras-self-attention
     !pip install attention
     !pip install nltk
+    !pip install git+https://www.github.com/keras-team/keras-contrib.git
     ```
 
     *or you could just do*
