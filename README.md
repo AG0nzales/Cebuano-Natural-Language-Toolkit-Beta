@@ -13,11 +13,12 @@
   - [POS TAGGER MODEL](#pos-tagger-model)
   - [NER TAGGER MODEL](#ner-tagger-model)
   - [POS NER tags](#pos-ner-tags)
+  - [POS](#pos_tagger)
+  - [NER](#ner)
   - [POS test](#pos-test)
   - [NER test](#ner-test)
     
     
-
 ## Sample Usage
 
 ### Initial setup
@@ -58,7 +59,7 @@
     *Google colab is very flexible in installing libraries with older versions*
 
     ```
-    pip install CNLTK-Beta==1.1
+    pip install CNLTK-Beta==1.0.1
     ```
 
 ## Modules
@@ -126,7 +127,31 @@ from CNLTK import POS_NER_tags
 your_variable = POS_NER_tags.get_POS_TAGS()
 your_variable = POS_NER_tags.get_NER_TAGS()
 ```
+#### POS Tagging
 
+*Test how the trained model tags*
+*This module will return two variable the preprocessed sentence & predicted tags*
+
+```
+from CNLTK import pos_tagger
+
+sentence = 'YOUR SAMPLE CEBUANO SENTENCE'
+
+sentence_variable, tag_variable = pos_tagger.predict_POS_model(sentence)
+```
+
+#### NER Tagging
+
+*Test how the trained model tags*
+*This module will return two variable the preprocessed sentence & predicted tags*
+
+```
+from CNLTK import ner
+
+sentence = 'YOUR SAMPLE CEBUANO SENTENCE'
+
+sentence_variable, tag_variable = ner.predict_NER_model(sentence)
+```
 
 #### POS test
 
@@ -152,6 +177,10 @@ sentence_variable, tag_variable = NER_test.predict_NER_model()
 
 ## FAQ
 
-#### Can i reuse the model for another corpus?
+#### Can I reuse the model for another corpus?
 
 Unfortunately the CNLTK library is still in its beta version and is still undergoing further testings and improvements.
+
+#### Is there a methoed where I can contribute to the dataset?
+
+Unfortunately the CNLTK corpus dataset is unavailable for contribution since it is still in its beta version
