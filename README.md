@@ -177,10 +177,10 @@ sentence_variable, tag_variable = NER_test.predict_NER_model()
 
 ## FAQ
 
-#### - Can I reuse the model for another corpus?
+- #### Can I reuse the model for another corpus?
 
 Unfortunately the CNLTK library is still in its beta version and is still undergoing further testings and improvements.
 
-#### - Is there a methoed where I can contribute to the dataset?
+- #### Is there a methoed where I can contribute to the dataset?
 
 Unfortunately the CNLTK corpus dataset is unavailable for contribution since it is still in its beta version
