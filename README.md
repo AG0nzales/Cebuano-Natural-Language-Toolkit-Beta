@@ -13,11 +13,11 @@
   - [POS TAGGER MODEL](#pos-tagger-model)
   - [NER TAGGER MODEL](#ner-tagger-model)
   - [POS NER tags](#pos-ner-tags)
-  - [POS](#pos_tagger)
-  - [NER](#ner)
+  - [POS](#pos-tagging)
+  - [NER](#ner-tagging)
   - [POS test](#pos-test)
   - [NER test](#ner-test)
-    
+- [FAQ](#faq)
     
 ## Sample Usage
 
