@@ -59,7 +59,7 @@
     *Google colab is very flexible in installing libraries with older versions*
 
     ```
-    pip install CNLTK-Beta==1.0.1
+    pip install CNLTK-Beta==0.1.2.1.0
     ```
 
 ## Modules
