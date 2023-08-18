@@ -2,6 +2,8 @@
 
 *This toolkit is still in its beta version and is still undergoing further testings*
 
+The Cebuano Natural Language Toolkit (CeNLP) is a language processing framework designed to analyze and understand the Cebuano language. Built upon the principles of natural language processing (NLP), CeNLP incorporates various linguistic and computational techniques to enable tasks such as tokenization, part-of-speech tagging, and named entity recognitions in Cebuano text. The toolkit leverages machine learning algorithms and linguistic resources to develop models that capture the unique features of Cebuano, enabling it to process and analyze the language effectively. By providing these functionalities, CeNLP facilitates the development of applications, tools, and systems that can comprehend and work with the Cebuano language in a meaningful and accurate manner.
+
 ## In this README :point_down:
 
 - [Sample Usage](#sample-usage)
